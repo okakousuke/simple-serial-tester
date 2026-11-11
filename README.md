@@ -14,9 +14,10 @@
 
 10年以上前に自分用に作ったツール（C#、Windowsフォーム）を、同じ考え方のままWPFへ置き換えたものです。置き換えの実装は、AI（Claude Code）に頼みました。元のツールのコードは含みません。
 
-作った経緯と、置き換えで直した点は、次の記事に書きました。
+作った経緯と使い方は、次の記事に書きました。
 
 - [10年以上前に自作したシリアル通信の試験ツールを、AIにWPFへ置き換えてもらった（Qiita）](https://qiita.com/okakousuke1124/items/ae982344111c31542d21)
+- [シリアル通信の試験ツール Simple Serial Tester の使い方（Qiita）](https://qiita.com/okakousuke1124/items/09771919d1046d042e7b)
 
 ## 機能
 
