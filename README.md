@@ -18,6 +18,7 @@
 
 - [10年以上前に自作したシリアル通信の試験ツールを、AIにWPFへ置き換えてもらった（Qiita）](https://qiita.com/okakousuke1124/items/ae982344111c31542d21)
 - [シリアル通信の試験ツール Simple Serial Tester の使い方（Qiita）](https://qiita.com/okakousuke1124/items/09771919d1046d042e7b)
+- [シリアル通信のツールには、機器なしで試せる「折り返し」の接続先を入れておく（Qiita）](https://qiita.com/okakousuke1124/items/b9b4de3f8cf67988b993)
 
 ## 機能
 
