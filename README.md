@@ -1,6 +1,6 @@
 # Simple Serial Tester
 
-[![PayPalで開発を支援する](https://img.shields.io/badge/PayPal-Donate-0070BA?logo=paypal&logoColor=white&style=for-the-badge)](https://paypal.me/okako1124)
+[![PayPalで開発を支援する](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/okako1124)
 
 シリアル通信（RS-232C、USBシリアルなど）の送受信を、手早く試すためのWindows用ツールです。WPF（.NET 8）で作っています。
 
