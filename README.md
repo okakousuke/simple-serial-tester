@@ -90,8 +90,21 @@ SimpleSerialTester.exe --screenshot docs/screenshot.png --tab 0
 | `src/SimpleSerialTester` | WPFの画面とViewModel |
 | `tests/SimpleSerialTester.Core.Tests` | Coreの単体テスト |
 | `tests/SimpleSerialTester.Tests` | ViewModelをループバックにつないで動かすテスト |
+| `tools/ChunkProbe` | 受信の通知が電文の切れ目で来るかを確かめる、確認用のコンソールプログラム |
 
 外部のライブラリは、`System.IO.Ports` とテスト用のxUnitだけです。
+
+## 受信がどこで分かれて届くかを確かめる
+
+`tools/ChunkProbe` は、数行を送って受け、同じ受信データを「通知が来た単位のまま」と「改行コードで区切り直した単位」の2通りで表示します。
+
+```shell
+# 機器なし（ループバック）
+dotnet run --project tools/ChunkProbe
+
+# 実際のポート。TXとRXを折り返しておく
+dotnet run --project tools/ChunkProbe -- --port COM7 --baud 9600 --lines 5 --length 40
+```
 
 ## 確認した範囲
 
